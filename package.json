@@ -1,0 +1,57 @@
+{
+  "name": "sem-fca",
+  "version": "2.5.0",
+  "module": "commonjs",
+  "types": "src/types/index.d.ts",
+  "description": "Powerful Facebook Chat API library with AppState login, 40+ features, Termux support, and beautiful gradient logging",
+  "main": "module/index.js",
+  "files": [
+    "module/",
+    "src/",
+    "example.js",
+    "LICENSE",
+    "README.md",
+    "TERMUX.md"
+  ],
+  "scripts": {
+    "test": "node tests/test.js",
+    "example": "node example.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imlimsemaj/sem-fca"
+  },
+  "author": "imlimsemaj",
+  "credits": "Original development and Facebook Chat API implementation",
+  "credit_url": "https://facebook.com/imlimsemaj",
+  "license": "MIT",
+  "keywords": [
+    "facebook",
+    "messenger",
+    "chat",
+    "api",
+    "bot",
+    "sem-fca",
+    "appstate",
+    "messaging",
+    "real-time",
+    "gradient-logging",
+    "anti-detection",
+    "termux",
+    "android"
+  ],
+  "dependencies": {
+    "axios": "^1.9.0",
+    "axios-cookiejar-support": "^4.0.7",
+    "chalk": "^5.3.0",
+    "gradient-string": "^2.0.2",
+    "tough-cookie": "^5.1.2",
+    "form-data": "^4.0.3",
+    "cheerio": "^1.0.0",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.x"
+  }
+}
